@@ -1,0 +1,80 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    visibility: hidden;
+}
+
+.bi,
+.event-name, 
+.gallery-name,
+.movie-name,
+.contact-name,
+.social-media-buttons .btn .bi {
+    color: rgb(255, 144, 163);
+}
+
+/* Adjusting the carousel */
+.carousel, .carousel-inner, .carousel-item, .carousel-item img {
+    /* Subtract the navbar height */
+    height: calc(100vh - 56px); 
+    object-fit: cover;
+  }
+  
+  /* Ensure the carousel takes full width */
+  .carousel, .carousel-item img {
+    width: 100%;
+  }
+
+.event-section h3 {
+    margin-top: 5%;
+    }
+  
+.event-section p {
+    margin-top: 5px; 
+    margin-bottom: 5px;
+}
+
+/* Change the colour of the p to the same grey defined by Bootstrap */
+p {
+    color: #6c757d;
+}
+
+/* Default size */
+iframe {
+    width: 560px; 
+    height: 315px; 
+    max-width: 100%;
+}
+
+/* For tablets */
+@media (max-width: 768px) {
+    iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+}
+
+/* For smaller devices */
+@media (max-width: 576px) {
+    iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+}
+
+/* Change the colour of the social media icons */
+.btn-secondary {
+    background-color: rgb(255, 144, 163) !important; 
+    border-color: rgb(255, 144, 163) !important; 
+}
+
+/* Change the colour of the footer */
+.custom-footer-bg {
+    background-color: lightgray;
+}
