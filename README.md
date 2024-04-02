@@ -4,6 +4,8 @@ Student name: Lisa Kikuchi
 Student no.: n01675386
 
 Project name: Toronto Sakura Festival 2024
+
+
 Given that city of Toronto holds a cherry blossom viewing event in High Park. 
 The goal of this website is giving the event information to the users and attracting potential visitors to the event by beautiful photos of the cherry blossom.
 
